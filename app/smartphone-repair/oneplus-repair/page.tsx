@@ -4,11 +4,11 @@
 
 import Placeholder from "@/components/layout/Placeholder";
 
-export default function GoogleTabletRepair() {
+export default function iPadProRepair() {
 
     return (
         <>
-            <Placeholder title="Google Tablet Repairs" />
+            <Placeholder title="OnePlus Repairs" />
         </>
     )
 }

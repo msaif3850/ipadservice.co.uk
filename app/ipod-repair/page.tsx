@@ -3,7 +3,7 @@ import Link from "next/link";
 import ProductCard from "@/components/layout/ProductCard";
 
 import { products } from "@/products";
-const pros = products["smartphone"];
+const pros = products["ipods"];
 export default function IpodRepair() {
 
     return (
@@ -22,7 +22,7 @@ export default function IpodRepair() {
                         help<span
                             aria-hidden="true"> →</span></Link>
                 </div>
-                <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-3">
                     {pros.map((product) => (
                         <ProductCard key={product.id} name={product.name} id={product.id} link={product.link} view={product.view}
                                      image={product.image}/>

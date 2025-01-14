@@ -1,47 +1,25 @@
 const categories = [
+    {id: 1, name: "iPhone Repair", link: "/iphone-repair", image: "/iphones/iphone-15-pro.jpg", view: "View Modals"},
     {
-        id: 2,
-        name: "iPhone Repair",
-        link: "/iphone-repair",
-        image: "/iphones/iphone-15-pro.jpg",
-        view: "View Modals"
+        id: 2, name: "iPad Repair", image: "/ipads/ipad-pro.jpg",
+        link: "/tablet-repair/ipad-repair-leeds", view: "View Modals"
     },
     {
-        id: 1,
-        name: "iPad Repair",
-        image: "/ipads/ipad-pro.jpg",
-        link: "/tablet-repair/ipad-repair-leeds",
-        view: "View Modals"
+        id: 3, name: "Smartphone Repair", link: "/smartphone-repair",
+        image: "/products/smartphones/nokia.jpg", view: "View Modals"
     },
     {
-        id: 3,
-        name: "Smartphone Repair",
-        link: "/smartphone-repair",
-        image: "/products/smartphones/nokia.jpg",
-        view: "View Modals"
-    },
-    {
-        id: 4,
-        name: "Tablet Repair",
-        link: "/tablet-repair",
-        image: "/products/tablets/other-tablets.jpg",
-        view: "View Modals"
+        id: 4, name: "Tablet Repair", link: "/tablet-repair",
+        image: "/products/tablets/other-tablets.jpg", view: "View Modals"
     }, {
-        id: 5,
-        name: "Computer Repair",
-        link: "/computer-repair",
-        image: "/categories/category-4.jpg",
-        view: "View Repairs"
-    }, {
+        id: 5, name: "Computer Repair", link: "/computer-repair",
+        image: "/categories/category-4.jpg", view: "View Repairs"
+    },
+    {
         id: 6, name: "Game Console Repair", link: "./", image: "/categories/category-5.jpg", view: "View Repairs"
     },
-    {
-        id: 7,
-        name: "Watch Repairs",
-        link: "/watch-repair",
-        image: "/categories/category-6.jpg",
-        view: "View Repairs"
-    },
+    {id: 7, name: "Watch Repairs", link: "/watch-repair", image: "/categories/category-6.jpg", view: "View Repairs"},
+    {id: 8, name: "Mac Repairs", link: "/mac-repair", image: "/products/macbook-pro.jpg", view: "View Repairs"},
 ];
 
 const products = {
@@ -399,31 +377,31 @@ const products = {
         {
             id: 5, name: "HTC Repair",
             image: "/products/smartphones/htc.jpg",
-            link: "/smartphone-repair",
+            link: "/smartphone-repair/htc-repair",
             view: "View Repairs"
         },
         {
             id: 6, name: "Motorola Repair",
             image: "/products/smartphones/motorola.jpg",
-            link: "/smartphone-repair",
+            link: "/smartphone-repair/motorola-repair",
             view: "View Repairs"
         },
         {
             id: 7, name: "OnePlus Repair",
             image: "/products/smartphones/oneplus.jpg",
-            link: "/smartphone-repair",
+            link: "/smartphone-repair/oneplus-repair",
             view: "View Repairs"
         },
         {
             id: 8, name: "BlackBerry Repair",
             image: "/products/smartphones/blackberry.jpg",
-            link: "/smartphone-repair",
+            link: "/smartphone-repair/blackberry-repair",
             view: "View Repairs"
         },
         {
             id: 9, name: "Nokia Repair",
             image: "/products/smartphones/nokia.jpg",
-            link: "/smartphone-repair",
+            link: "/smartphone-repair/nokia-repair",
             view: "View Repairs"
         },
 
@@ -559,35 +537,27 @@ const products = {
             id: 5,
             name: "Air 5",
             image: "/ipads/ipad-air/air-5.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-air-5-repair",
+            link: "/tablet-repair/ipad-repair-leeds/ipad-air/ipad-air-5-repair",
             view: "View Repairs"
         },
         {
-            id: 4,
-            name: "Air 4",
-            image: "/ipads/ipad-air/air-4.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-air-4-repair",
+            id: 4, name: "Air 4", image: "/ipads/ipad-air/air-4.jpg",
+            link: "/tablet-repair/ipad-repair-leeds/ipad-air/ipad-air-4-repair",
             view: "View Repairs"
         },
         {
-            id: 3,
-            name: "Air 3",
-            image: "/ipads/ipad-air/air-3.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-air-3-repair",
+            id: 3, name: "Air 3", image: "/ipads/ipad-air/air-3.jpg",
+            link: "/tablet-repair/ipad-repair-leeds/ipad-air/ipad-air-3-repair",
             view: "View Repairs"
         },
         {
-            id: 2,
-            name: "Air 2",
-            image: "/ipads/ipad-air/air-2.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-air-2-repair",
+            id: 2, name: "Air 2", image: "/ipads/ipad-air/air-2.jpg",
+            link: "/tablet-repair/ipad-repair-leeds/ipad-air/ipad-air-2-repair",
             view: "View Repairs"
         },
         {
-            id: 1,
-            name: "Air 1",
-            image: "/ipads/ipad-air/air-1.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-air-1-repair",
+            id: 1, name: "Air 1", image: "/ipads/ipad-air/air-1.jpg",
+            link: "/tablet-repair/ipad-repair-leeds/ipad-air/ipad-air-1-repair",
             view: "View Repairs"
         },
     ],
@@ -624,6 +594,42 @@ const products = {
             name: "Mini 1",
             image: "/ipads/ipad-mini/mini-1.jpg",
             link: "/tablet-repair/ipad-repair/ipad-mini-1st-generation-repair",
+            view: "View Repairs"
+        },
+    ],
+
+    ipods: [
+        {id: 1, name: "iPod Touch", image: "/products/ipod-touch.jpg", link: "/ipod-repair/ipod-touch", view: "View Modals"},
+        {id: 2, name: "iPod Classic", image: "/products/ipod-classic.jpg", link: "/ipod-repair/ipod-classic", view: "View Modals"},
+        {id: 2, name: "iPod Nano", image: "/ipods/ipod-nano/6th-gen.jpg", link: "/ipod-repair/ipod-nano", view: "View Modals"},
+    ],
+    ipodTouch: [
+        {
+            id: 1,
+            name: "iPad (4th Generation) Repair",
+            image: "/products/tablets/ipads/ipad-mini.jpg",
+            link: "/tablet-repair/ipad-repair/ipad-4th-generation-repair",
+            view: "View Repairs"
+        },
+        {
+            id: 2,
+            name: "iPad (3rd Generation) Repair",
+            image: "/products/tablets/ipads/ipad-mini.jpg",
+            link: "/tablet-repair/ipad-repair/ipad-3rd-generation-repair",
+            view: "View Repairs"
+        },
+        {
+            id: 3,
+            name: "iPad 2 Repair",
+            image: "/products/tablets/ipads/ipad-mini.jpg",
+            link: "/tablet-repair/ipad-repair/ipad-2-repair",
+            view: "View Repairs"
+        },
+        {
+            id: 4,
+            name: "iPad (1st Generation) Repair",
+            image: "/products/tablets/ipads/ipad-mini.jpg",
+            link: "/tablet-repair/ipad-repair-leeds",
             view: "View Repairs"
         },
     ],
