@@ -68,7 +68,7 @@ export default function TabletRepair() {
                     </div>
                     <div
                         className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                        <img className="w-[40rem] max-w-none sm:w-[57rem]" src="/ipadpro.png" alt="ipad "/>
+                        <Image width={1200} height={900} className="w-[40rem] max-w-none sm:w-[57rem]" src="/ipadpro.png" alt="ipad "/>
                     </div>
                     <div
                         className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -91,38 +91,6 @@ export default function TabletRepair() {
                     </div>
                 </div>
             </div>
-            {/*<section className="px-10">
-                <div className="container mx-auto flex flex-wrap items-center">
-                    <div className="w-full md:w-2/3">
-                        <h3 className="text-3xl lg:text-5xl font-semibold mb-4">Our passion for perfection is reflected
-                            in our work.</h3>
-                        <p className="text-lg leading-relaxed text-black">
-                            We have the edge... We have the skills... We have the experience...
-                            <br/>
-                            <br/> Make the right choice and call today to revive your tablet using a trusted
-                            company.
-                            <br/>
-                            <br/> We have become pioneers in the industry of repairing iPads &amp; tablets. We are
-                            market leaders in screen replacements:
-                            our screens are vigorously vetted before installation and all come with our unique
-                            oleo-phobic chemical treatment,
-                            this allows your touch screen to resist the build up of grease and other and other
-                            unwanted spoils that may effect
-                            your display&#39;s usage and visibility. The secret formula we use is closely guarded secret
-                            but all our customers are
-                            impressed with the final result achieved.
-                        </p>
-                    </div>
-                    <div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0">
-                        <Image
-                            className="max-w-full h-auto"
-                            src="/ipadpro.png"
-                            alt="iPad Pro 9.7"
-                            width={600} height={600}
-                        />
-                    </div>
-                </div>
-            </section>*/}
             <section className="flex flex-col items-center pb-20">
                 <h2 className="text-5xl">Let us elevate your device “ to Infinity & Beyond ”</h2>
                 <Image src='/buzz.png' alt='buzz' width={400} height={400}/>

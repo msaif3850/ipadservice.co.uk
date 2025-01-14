@@ -1,16 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-
-
 export default function TermsOfService() {
-
     return (
         <>
             <>
                 <div className="px-6 py-24 sm:py-22 lg:px-8">
                     <div className="mx-auto max-w-2xl text-center">
-                        <h1 className="text-5xl font-semibold tracking-tight text-gray-950 sm:text-7xl">Terms and Conditions</h1>
-                        <h2 className="mt-8 text-pretty text-lg text-gray-600 sm:text-xl/8">PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING OUR SERVICES.</h2>
+                        <h1 className="text-5xl font-semibold tracking-tight text-gray-950 sm:text-7xl">Terms and
+                            Conditions</h1>
+                        <h2 className="mt-8 text-pretty text-lg text-gray-600 sm:text-xl/8">PLEASE READ THESE TERMS OF
+                            USE CAREFULLY BEFORE USING OUR SERVICES.</h2>
                     </div>
                     <div className="">
                         <p className="">Any current special offers has some very specific terms which will be explained
