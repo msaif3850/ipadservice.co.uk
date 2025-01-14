@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 
 export default function WatchRepair() {
@@ -14,7 +13,7 @@ export default function WatchRepair() {
                         <h2 className="mt-8 text-pretty text-lg text-gray-600 sm:text-xl/8">This webpage is a work in
                             progress... <br/>
                             However, we do repair this device. Give us a call on <a href="tel:+441132591700" className="underline hover:no-underline">0113 259 1700</a></h2>
-                        <Image className="" src={'/watch-404.jpg'} alt='imac-404' width={600} height={400}/>
+                        <Image src={'/watch-404.jpg'} alt='imac-404' width={600} height={400}/>
                     </div>
                 </div>
             </>

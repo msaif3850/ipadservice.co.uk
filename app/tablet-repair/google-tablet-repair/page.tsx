@@ -8,21 +8,9 @@ import {
 import Link from "next/link";
 import ProductCard from "@/components/layout/ProductCard";
 import Image from "next/image";
-const products = [
-    {
-        id: 1,
-        name: "iPad",
-        image: "/products/ipads/ipad-mini.jpg",
-        link: "tablet-repair/ipad-repair",
-    },
-    {
-        id: 1,
-        name: "Google Nexus Tablet",
-        image: "/products/ipads/google-nexus-tablet.jpg",
-        link: "tablet-repair/google-tablet-repair",
-    },
+import {products} from "@/products";
+const pros = products["tablet"];
 
-];
 
 export default function TabletRepair() {
 
@@ -66,9 +54,9 @@ export default function TabletRepair() {
                         <svg x="50%" y="-1" className="overflow-visible fill-gray-50">
                             <path
                                 d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                                stroke-width="0"/>
+                                strokeWidth="0"/>
                         </svg>
-                        <rect width="100%" height="100%" stroke-width="0"
+                        <rect width="100%" height="100%" strokeWidth="0"
                               fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"/>
                     </svg>
                 </div>
@@ -89,7 +77,7 @@ export default function TabletRepair() {
                     </div>
                     <div
                         className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                        <img className="w-[40rem] max-w-none sm:w-[57rem]" src="/ipadpro.png" alt="ipad "/>
+                        <Image width={1200} height={900} className="w-[40rem] max-w-none sm:w-[57rem]" src="/ipadpro.png" alt="ipad "/>
                     </div>
                     <div
                         className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -99,7 +87,7 @@ export default function TabletRepair() {
                                     leaders in screen replacements: our screens are vigorously vetted before
                                     installation and all come with our unique oleo-phobic chemical treatment, this
                                     allows your touch screen to resist the build up of grease and other and other
-                                    unwanted spoils that may effect your display's usage and visibility. The secret
+                                    unwanted spoils that may effect your display&#39;s usage and visibility. The secret
                                     formula we use is closely guarded secret but all our customers are impressed with
                                     the final result achieved.</p>
 
@@ -146,9 +134,10 @@ export default function TabletRepair() {
             </section>
             <section className="p-10 text-center bg-gray-100">
                 <h2 className="text-3xl my-6">We have exceled in becoming market leader in the repair industry.</h2>
-                <div className="grid grid-cols-4 gap-8">
-                    {products.map((product) => (
-                        <ProductCard key={product.id} product={product} />
+                <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                    {pros.map((product) => (
+                        <ProductCard key={product.id} name={product.name} id={product.id} link={product.link}
+                                     image={product.image} view={product.view}/>
                     ))}
                 </div>
             </section>

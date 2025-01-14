@@ -4,11 +4,7 @@ import ProductCard from "@/components/layout/ProductCard";
 
 import { products } from "@/products";
 import {Button} from "@/components/ui/button";
-const ipadclassic = products["ipadClassic"];
-const ipadAirPro = products["ipadAirPro"];
-const ipadMini = products["ipadMini"];
 const ipads = products["ipads"];
-const ipadAir = products["ipadAir"];
 
 export default function iPadRepair() {
     return (
@@ -37,55 +33,6 @@ export default function iPadRepair() {
                                      image={product.image} view={product.view}/>
                     ))}
                 </div>
-
-                {/*<div className="md:flex md:items-center md:justify-between mt-10">
-                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">iPad Classic</h2>
-                    <Link href={'/contact'}
-                          className="hidden text-sm font-medium text-indigo-500 hover:text-indigo-500 md:block">Need
-                        help<span aria-hidden="true"> →</span></Link>
-                </div>
-                <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-                    {ipadclassic.map((product) => (
-                        <ProductCard key={product.id} name={product.name} id={product.id} link={product.link}
-                                     image={product.image} view={product.view}/>
-                    ))}
-                </div>
-                <div className="my-10 text-center shadow items-start gap-x-8 gap-y-6 rounded-xl p-8 ring-1 ring-gray-900/10 sm:p-10 ">
-                    <h3 className="text-lg font-semibold leading-8 text-indigo-500">Splash / Liquid damage is our
-                        speciality.</h3>
-                </div>
-                <div className="md:flex md:items-center md:justify-between ">
-                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">iPad Air & iPad Pro</h2>
-                    <Link href={'/contact'}
-                          className="hidden text-sm font-medium text-indigo-500 hover:text-indigo-500 md:block">Need
-                        help<span aria-hidden="true"> →</span></Link>
-                </div>
-                <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-                    {ipadAir.map((product) => (
-                        <ProductCard key={product.id} name={product.name} id={product.id} link={product.link}
-                                     image={product.image} view={product.view}/>
-                    ))}
-                </div>
-                <div className="my-10 text-center shadow items-start gap-x-8 gap-y-6 rounded-xl p-8 ring-1 ring-gray-900/10 sm:p-10 ">
-                    <h3 className="text-lg font-semibold leading-8 text-indigo-500">Screen / Glass replacements is
-                        second nature to us</h3>
-                </div>
-                <div className="md:flex md:items-center md:justify-between ">
-                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">iPad Mini</h2>
-                    <Link href={'/contact'}
-                          className="hidden text-sm font-medium text-indigo-500 hover:text-indigo-500 md:block">Need
-                        help<span aria-hidden="true"> →</span></Link>
-                </div>
-                <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-                    {ipadMini.map((product) => (
-                        <ProductCard key={product.id} name={product.name} id={product.id} link={product.link}
-                                     image={product.image} view={product.view}/>
-                    ))}
-                </div>
-                <div className="my-10 text-center shadow items-start gap-x-8 gap-y-6 rounded-xl p-8 ring-1 ring-gray-900/10 sm:p-10 ">
-                    <h3 className="text-lg font-semibold leading-8 text-indigo-500">Our crack team of iPad practitioners have mastered their technique with thousands of iPad Repairs over the years.</h3>
-                </div>*/}
-
             </div>
         </>
     )
