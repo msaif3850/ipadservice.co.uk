@@ -16,7 +16,7 @@ export default function IpodRepair() {
             </div>
             <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="md:flex md:items-center md:justify-between">
-                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">Please select the smart phone you need fixing below:</h2>
+                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">Select your iPod Modal</h2>
                     <Link href={'/contact'}
                           className="hidden text-sm font-medium text-indigo-500 hover:text-indigo-500 md:block">Need
                         help<span
