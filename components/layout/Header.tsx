@@ -29,8 +29,8 @@ export default function Header() {
         <>
             {/* Main Header */}
             <div
-                className={`flex items-center justify-between px-6 lg:px-10 fixed w-full z-50 transition-all duration-300 ${
-                    scrolled ? "bg-white shadow-sm py-2" : "bg-white py-3"
+                className={`flex items-center justify-between bg-white px-5 lg:px-10 fixed w-full z-50 transition-all duration-300 ${
+                    scrolled ? "shadow-sm lg:py-1 py-2" : "py-2"
                 }`}
             >
                 <Link href="/" className="">
@@ -40,7 +40,6 @@ export default function Header() {
                         width={200}
                         height={200}
                         className="transition-transform duration-300"
-                        style={{transform: scrolled ? "scale(0.9)" : "scale(1)"}}
                     />
                 </Link>
                 {/* Desktop Links */}
@@ -82,6 +81,7 @@ export default function Header() {
                     <Link href={"/watch-repair"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">Watch Repairs</Link>
                     <Link href={"/ipod-repair"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">iPod Repairs</Link>
                 </div>
+                <Button ><Link href={"/contact"} className="">Contact</Link></Button>
                 {/* Mobile Menu Button */}
                 <Sheet>
                     <SheetTrigger asChild className="order-last">
@@ -91,9 +91,9 @@ export default function Header() {
                             </svg>
                         </button>
                     </SheetTrigger>
-                    <SheetContent side="left" className="bg-white p-6">
+                    <SheetContent side="right" className="bg-white p-6">
                         <SheetHeader>
-                            <Image src="/logo/logo-black-colored.png" alt="logo" width={150} height={150} />
+                            <Image className="-mt-3" src="/logo/logo-black-colored.png" alt="logo" width={150} height={150} />
                         </SheetHeader>
                         <nav className="mt-6 space-y-4">
                             <Link href={"/about"} className="block text-gray-900 hover:text-gray-950">About Us</Link>
@@ -104,9 +104,9 @@ export default function Header() {
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                                     </svg>
                                 </DropdownMenuTrigger>
-                                <DropdownMenuContent className="w-56 bg-white shadow-lg rounded-lg">
+                                <DropdownMenuContent className="bg-white shadow-lg rounded-lg ">
                                     <Link href={"/iphone-repair"}>
-                                        <DropdownMenuItem className="p-3 hover:bg-gray-100">iPhone Repair</DropdownMenuItem>
+                                        <DropdownMenuItem className=" p-3 hover:bg-gray-100">iPhone Repair</DropdownMenuItem>
                                     </Link>
                                     <Link href={"/smartphone-repair"}>
                                         <DropdownMenuItem className="p-3 hover:bg-gray-100">Smartphone Repair</DropdownMenuItem>
@@ -135,11 +135,6 @@ export default function Header() {
                         </nav>
                     </SheetContent>
                 </Sheet>
-
-
-                <Button >
-                    <Link href={"/contact"} className="">Contact</Link>
-                </Button>
             </div>
         </>
     );

@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer className="bg-gray-900 text-white">
             {/* Main Footer Content */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 px-5 lg:px-10 gap-10">
                 <div className="mb-6 lg:mb-0">
                     <Link href={'./'} className="hover:underline">
                         <Image src="/logo/logo-white-colored.png" alt="iPad Pro Repair Leeds" width={200} height={40}/>

@@ -60,7 +60,7 @@ export default function Home() {
                             <div className="lg:max-w-lg">
                                 <h2 className="text-base/7 font-semibold text-indigo-600">Leeds & Bradford Area</h2>
                                 {/*<p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">iPad Repairs by Certified Technicians</p>*/}
-                                <h2 className="text-5xl font-semibold tracking-tight text-gray-950 sm:text-7xl mb-8 mt-2">iPad
+                                <h2 className="text-4xl font-semibold tracking-tight text-gray-950 sm:text-7xl mb-8 mt-2">iPad
                                     Repairs by Certified Technicians</h2>
                                 <p className="mt-6 text-lg/8 text-gray-600">We have become market leaders setting the
                                     highest standards for quality repairs within the hour restoring your treasured
@@ -269,12 +269,12 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="relative h-[300px] bg-gradient-to-tr from-indigo-300 to-indigo-100 overflow-hidden px-6">
+            <div className="relative h-[350px] lg:h-[300px] bg-gradient-to-tr from-indigo-300 to-indigo-100 overflow-hidden px-6">
                 <div className="absolute -top-6 -left-6 w-20 h-20 rounded-full bg-indigo-500"></div>
                 <div className="absolute -top-6 -right-6 w-20 h-20 rounded-full bg-black"></div>
                 <div className="grid items-center h-full">
                     <div className="text-center">
-                        <h3 className="font-bold sm:text-4xl text-2xl">Questions, Comments?<br/>Let us know!</h3>
+                        <h3 className="font-bold sm:text-4xl text-3xl">Questions, Comments?<br/>Let us know!</h3>
                         <div className="mt-8 ">
                             <p className="text-base text-[#333]">Our customer service staff loves helping people. If
                                 you&#39;re having trouble with something we&#39;ll do our best to help!</p>
