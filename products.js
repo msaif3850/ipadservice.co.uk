@@ -599,39 +599,88 @@ const products = {
     ],
 
     ipods: [
-        {id: 1, name: "iPod Touch", image: "/products/ipod-touch.jpg", link: "/ipod-repair/ipod-touch", view: "View Modals"},
-        {id: 2, name: "iPod Classic", image: "/products/ipod-classic.jpg", link: "/ipod-repair/ipod-classic", view: "View Modals"},
-        {id: 2, name: "iPod Nano", image: "/ipods/ipod-nano/6th-gen.jpg", link: "/ipod-repair/ipod-nano", view: "View Modals"},
+        {id: 1, name: "iPod Touch", image: "/products/ipod-touch.jpg", link: "/ipod-repairs/ipod-touch", view: "View Modals"},
+        {id: 2, name: "iPod Classic", image: "/products/ipod-classic.jpg", link: "/ipod-repairs/ipod-classic", view: "View Modals"},
+        {id: 2, name: "iPod Nano", image: "/ipods/ipod-nano/6th-gen.jpg", link: "/ipod-repairs/ipod-nano", view: "View Modals"},
     ],
     ipodTouch: [
         {
-            id: 1,
-            name: "iPad (4th Generation) Repair",
-            image: "/products/tablets/ipads/ipad-mini.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-4th-generation-repair",
-            view: "View Repairs"
+            id: 1, name: "iPod Touch 7th Generation", image: "/ipods/ipod-touch/7th-gen.jpg",
+            link: "/ipod-repairs/ipod-touch/ipod-touch-7th-generation-repair", view: "View Repairs"
         },
         {
-            id: 2,
-            name: "iPad (3rd Generation) Repair",
-            image: "/products/tablets/ipads/ipad-mini.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-3rd-generation-repair",
-            view: "View Repairs"
+            id: 2, name: "iPod Touch 6th Generation", image: "/ipods/ipod-touch/6th-gen.jpg",
+            link: "/ipod-repairs/ipod-touch/ipod-touch-6th-generation-repair", view: "View Repairs"
         },
         {
-            id: 3,
-            name: "iPad 2 Repair",
-            image: "/products/tablets/ipads/ipad-mini.jpg",
-            link: "/tablet-repair/ipad-repair/ipad-2-repair",
-            view: "View Repairs"
+            id: 3, name: "iPod Touch 5th Generation", image: "/ipods/ipod-touch/5th-gen.jpg",
+            link: "/ipod-repairs/ipod-touch/ipod-touch-5th-generation-repair", view: "View Repairs"
         },
         {
-            id: 4,
-            name: "iPad (1st Generation) Repair",
-            image: "/products/tablets/ipads/ipad-mini.jpg",
-            link: "/tablet-repair/ipad-repair-leeds",
-            view: "View Repairs"
+            id: 4, name: "iPod Touch 4th Generation", image: "/ipods/ipod-touch/4th-gen.jpg",
+            link: "/ipod-repairs/ipod-touch/ipod-touch-4th-generation-repair", view: "View Repairs"
         },
+        {
+            id: 5, name: "iPod Touch 3rd Generation", image: "/ipods/ipod-touch/3rd-gen.jpg",
+            link: "/ipod-repairs/ipod-touch/ipod-touch-3rd-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 6, name: "iPod Touch 2nd Generation", image: "/ipods/ipod-touch/2nd-gen.jpg",
+            link: "/ipod-repairs/ipod-touch/ipod-touch-2nd-generation-repair", view: "View Repairs"
+        },
+    ],
+    ipodClassic: [
+        {
+            id: 1, name: "iPod Classic 7th Generation", image: "/ipods/ipod-classic/7th-gen.jpg",
+            link: "/ipod-repairs/ipod-classic/ipod-classic-7th-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 2, name: "iPod Classic 6th Generation", image: "/ipods/ipod-classic/6th-gen.jpg",
+            link: "/ipod-repairs/ipod-classic/ipod-classic-6th-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 3, name: "iPod Video 5th Generation", image: "/ipods/ipod-classic/5th-gen.jpg",
+            link: "/ipod-repairs/ipod-classic/ipod-video-5th-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 4, name: "iPod 4th Generation", image: "/ipods/ipod-classic/4th-gen.jpg",
+            link: "/ipod-repairs/ipod-classic/ipod-4th-generation-repair", view: "View Repairs"
+        },
+    ],
+    ipodNano: [
+        {
+            id: 1, name: "iPod Nano 6th Generation", image: "/ipods/ipod-nano/6th-gen.jpg",
+            link: "/ipod-repairs/ipod-nano/ipod-nano-6th-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 2, name: "iPod Nano 5th Generation", image: "/ipods/ipod-nano/5th-gen.jpg",
+            link: "/ipod-repairs/ipod-nano/ipod-nano-5th-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 3, name: "iPod Nano 4th Generation", image: "/ipods/ipod-nano/4th-gen.jpg",
+            link: "/ipod-repairs/ipod-nano/ipod-nano-4th-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 4, name: "iPod Nano 3rd Generation", image: "/ipods/ipod-nano/3rd-gen.jpg",
+            link: "/ipod-repairs/ipod-nano/ipod-nano-3rd-generation-repair", view: "View Repairs"
+        },
+        {
+            id: 5, name: "iPod Nano 2nd Generation", image: "/ipods/ipod-nano/2nd-gen.jpg",
+            link: "/ipod-repairs/ipod-nano/ipod-nano-2nd-generation-repair", view: "View Repairs"
+        },
+    ],
+
+    AppleWAtches: [
+        {id: 10, name: "Series 10", image: "/watches/series-10.jpg", link: "/watch-repair/series-10", view: "View Repairs"},
+        {id: 9, name: "Series 9", image: "/watches/series-9.jpg", link: "/watch-repair/series-9", view: "View Repairs"},
+        {id: 1, name: "Series 8", image: "/watches/series-8.jpg", link: "/watch-repair/series-8", view: "View Repairs"},
+        {id: 2, name: "SE (2nd Generation)", image: "/watches/se-2nd-gen.jpg", link: "/watch-repair/se-2nd-generation", view: "View Repairs"},
+        {id: 3, name: "Series 7", image: "/watches/series-7.jpg", link: "/watch-repair/series-7", view: "View Repairs"},
+        {id: 4, name: "Series 6", image: "/watches/series-6.jpg", link: "/watch-repair/series-6", view: "View Repairs"},
+        {id: 5, name: "SE (1st Generation)", image: "/watches/se-1st-gen.jpg", link: "/watch-repair/se-1st-generation", view: "View Repairs"},
+        {id: 6, name: "Series 5", image: "/watches/series-5.jpg", link: "/watch-repair/series-5", view: "View Repairs"},
+        {id: 7, name: "Series 4", image: "/watches/series-4.jpg", link: "/watch-repair/series-4", view: "View Repairs"},
+        {id: 8, name: "Series 3", image: "/watches/series-3.jpg", link: "/watch-repair/series-3", view: "View Repairs"},
     ],
 };
 export {categories, products};

@@ -26,7 +26,7 @@ export default function Footer() {
                         <li><Link href={'/smartphone-repair'} className="hover:underline">Cell Phone</Link></li>
                         <li><Link href={'/tablet-repair'} className="hover:underline">Tablet</Link></li>
                         <li><Link href={'/computer-repair'} className="hover:underline">Computer</Link></li>
-                        <li><Link href={'/ipod-repair'} className="hover:underline">iPod</Link></li>
+                        <li><Link href={'/ipod-repairs'} className="hover:underline">iPod</Link></li>
                     </ul>
                 </div>
                 <div className="mb-6 lg:mb-0">

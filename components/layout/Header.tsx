@@ -79,7 +79,7 @@ export default function Header() {
                     </DropdownMenu>
                     <Link href={"/mac-repair"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">Mac Repairs</Link>
                     <Link href={"/watch-repair"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">Watch Repairs</Link>
-                    <Link href={"/ipod-repair"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">iPod Repairs</Link>
+                    <Link href={"/ipod-repairs"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">iPod Repairs</Link>
                 </div>
                 <Button ><Link href={"/contact"} className="">Contact</Link></Button>
                 {/* Mobile Menu Button */}
@@ -131,7 +131,7 @@ export default function Header() {
                             </DropdownMenu>
                             <Link href={"/mac-repair"} className="block text-gray-900 hover:text-gray-950">Mac Repairs</Link>
                             <Link href={"/watch-repair"} className="block text-gray-900 hover:text-gray-950">Watch Repairs</Link>
-                            <Link href={"/ipod-repair"} className="block text-gray-900 hover:text-gray-950">iPod Repairs</Link>
+                            <Link href={"/ipod-repairs"} className="block text-gray-900 hover:text-gray-950">iPod Repairs</Link>
                         </nav>
                     </SheetContent>
                 </Sheet>

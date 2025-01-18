@@ -3,20 +3,20 @@ import Link from "next/link";
 import ProductCard from "@/components/layout/ProductCard";
 
 import { products } from "@/products";
-const pros = products["AppleWAtches"];
-export default function WatchRepair() {
+const pros = products["ipodClassic"];
+export default function iPodClassicRepair() {
 
     return (
         <>
             <div className="px-6 py-24 sm:py-22 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h1 className="text-5xl font-semibold tracking-tight text-gray-950 sm:text-7xl">Apple Watch Repairs in Leeds</h1>
-                    <h2 className="mt-8 text-pretty text-lg text-gray-600 sm:text-xl/8">We don&#39;t only fix iPad and iPhone, we can fix any other handheld devices as well.</h2>
+                    <h1 className="text-5xl font-semibold tracking-tight text-gray-950 sm:text-7xl">iPod Classic Repairs in Leeds</h1>
+                    <h2 className="mt-8 text-pretty text-lg text-gray-600 sm:text-xl/8">Explore our extensive range of iPod repair services, covering screen replacements, new batteries, charging port fixes, and more, for all iPod models</h2>
                 </div>
             </div>
             <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="md:flex md:items-center md:justify-between">
-                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">Select your watch Modal</h2>
+                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">Select your iPod Touch modal</h2>
                     <Link href={'/contact'}
                           className="hidden text-sm font-medium text-indigo-500 hover:text-indigo-500 md:block">Need
                         help<span
