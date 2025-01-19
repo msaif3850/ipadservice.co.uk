@@ -77,7 +77,7 @@ export default function Header() {
                             </Link>
                         </DropdownMenuContent>
                     </DropdownMenu>
-                    <Link href={"/mac-repair"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">Mac Repairs</Link>
+                    <Link href={"/mac-repairs"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">Mac Repairs</Link>
                     <Link href={"/watch-repair"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">Watch Repairs</Link>
                     <Link href={"/ipod-repairs"} className="text-sm font-medium p-2 text-gray-900 hover:text-gray-950">iPod Repairs</Link>
                 </div>
@@ -129,7 +129,7 @@ export default function Header() {
                                     </Link>
                                 </DropdownMenuContent>
                             </DropdownMenu>
-                            <Link href={"/mac-repair"} className="block text-gray-900 hover:text-gray-950">Mac Repairs</Link>
+                            <Link href={"/mac-repairs"} className="block text-gray-900 hover:text-gray-950">Mac Repairs</Link>
                             <Link href={"/watch-repair"} className="block text-gray-900 hover:text-gray-950">Watch Repairs</Link>
                             <Link href={"/ipod-repairs"} className="block text-gray-900 hover:text-gray-950">iPod Repairs</Link>
                         </nav>

@@ -54,7 +54,7 @@ export default function MacRepair() {
                                 adviser will be more than happy to advise you.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -75,7 +75,7 @@ export default function MacRepair() {
                                 for a perfect finish.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -113,7 +113,7 @@ export default function MacRepair() {
                                 rescue inoperative iMac.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -133,7 +133,7 @@ export default function MacRepair() {
                                 companies with this device.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -166,7 +166,7 @@ export default function MacRepair() {
                             <p className="text-lg">We are intimately familiar with the mac mini, we are servicing and repairing this device since its first release in 2005. We can easily upgrade the memory (RAM) and storage (Hard Drive - SSD) of the mac mini same day as our 1500sqft premises stockpile replacement part for this device. We can also bring your Mac Mini back to life with a logic board repair! We provide the in-depth repair service other technicians cannot. Component level repair is our speciality. Our technicians are trained and certified to handle your Apple Mac mini service and repair needs.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>

@@ -35,7 +35,7 @@ export default function About() {
                                 adviser will be more than happy to advise you.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -56,7 +56,7 @@ export default function About() {
                                 for a perfect finish.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -94,7 +94,7 @@ export default function About() {
                                 rescue inoperative iMac.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -114,7 +114,7 @@ export default function About() {
                                 companies with this device.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>
@@ -153,7 +153,7 @@ export default function About() {
                                 certified to handle your Apple Mac mini service and repair needs.</p>
                             <br/>
                             <div>
-                                <Link href={'/computer-repair/mac-repair-leeds'}
+                                <Link href={'/computer-repair/mac-repairs-leeds'}
                                       className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-600 transition">
                                     Find out more
                                 </Link>

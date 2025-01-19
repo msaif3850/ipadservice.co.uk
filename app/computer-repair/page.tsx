@@ -31,7 +31,7 @@ export default function ComputerRepair() {
             <section className="px-10 py-20 text-center flex flex-col items-center">
                 <h2 className="text-3xl mb-6">Computer and Laptop Repair Leeds</h2>
                 <h3 className="text-xl mb-5">Looking for an Apple Mac repair :
-                    <Link href={'/computer-repair/mac-repair-leeds'} className="underline hover:no-underline">Click here</Link>
+                    <Link href={'/computer-repair/mac-repairs-leeds'} className="underline hover:no-underline">Click here</Link>
                     </h3>
                 <p className="text-lg px-0 lg:px-20 mb-6">This webpage is a work in progress...</p>
                 <Image className="" src={'/imac-404.jpg'} alt='imac-404' width={500} height={400}/>

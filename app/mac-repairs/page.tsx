@@ -3,7 +3,7 @@ import Link from "next/link";
 import ProductCard from "@/components/layout/ProductCard";
 
 import { products } from "@/products";
-const pros = products["smartphone"];
+const pros = products["macModals"];
 export default function MacRepair() {
 
     return (

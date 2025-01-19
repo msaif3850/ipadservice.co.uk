@@ -19,7 +19,7 @@ const categories = [
         id: 6, name: "Game Console Repair", link: "./", image: "/categories/category-5.jpg", view: "View Repairs"
     },
     {id: 7, name: "Watch Repairs", link: "/watch-repair", image: "/categories/category-6.jpg", view: "View Repairs"},
-    {id: 8, name: "Mac Repairs", link: "/mac-repair", image: "/products/macbook-pro.jpg", view: "View Repairs"},
+    {id: 8, name: "Mac Repairs", link: "/mac-repairs", image: "/products/macbook-pro.jpg", view: "View Repairs"},
 ];
 
 const products = {
@@ -597,7 +597,6 @@ const products = {
             view: "View Repairs"
         },
     ],
-
     ipods: [
         {id: 1, name: "iPod Touch", image: "/products/ipod-touch.jpg", link: "/ipod-repairs/ipod-touch", view: "View Modals"},
         {id: 2, name: "iPod Classic", image: "/products/ipod-classic.jpg", link: "/ipod-repairs/ipod-classic", view: "View Modals"},
@@ -669,7 +668,6 @@ const products = {
             link: "/ipod-repairs/ipod-nano/ipod-nano-2nd-generation-repair", view: "View Repairs"
         },
     ],
-
     AppleWAtches: [
         {id: 10, name: "Series 10", image: "/watches/series-10.jpg", link: "/watch-repair/series-10", view: "View Repairs"},
         {id: 9, name: "Series 9", image: "/watches/series-9.jpg", link: "/watch-repair/series-9", view: "View Repairs"},
@@ -682,5 +680,75 @@ const products = {
         {id: 7, name: "Series 4", image: "/watches/series-4.jpg", link: "/watch-repair/series-4", view: "View Repairs"},
         {id: 8, name: "Series 3", image: "/watches/series-3.jpg", link: "/watch-repair/series-3", view: "View Repairs"},
     ],
+
+    macModals: [
+        {id: 1, name: "MacBook Air", image: "/products/macbook-air.jpg", link: "/mac-repairs/macbook-air", view: "View Modals"},
+        {id: 2, name: "MacBook Pro", image: "/products/macbook-pro.jpg", link: "/mac-repairs/macbook-pro", view: "View Modals"},
+        {id: 3, name: "iMac", image: "/products/imac.jpg", link: "/mac-repairs/imac", view: "View Modals"},
+        {id: 4, name: "Mac mini", image: "/products/mac-mini.jpg", link: "/mac-repairs/mac-mini", view: "View Modals"},
+    ],
+    MacBookAir11Inch: [
+        {id: 1, name: "MacBook Air (11-inch, 13-15)", image: "/mac/macbook-air/11-inch/11-inch-13-15.jpg", link: "/mac-repairs/macbook-air/macbook-air-11-inch-13-15", view: "View Repairs"},
+    ],
+    MacBookAir13Inch: [
+        {id: 1, name: "MacBook Air (13-inch, M2, 2022)", image: "/mac/macbook-air/13-inch/13-inch-m2.jpg", link: "/mac-repairs/macbook-air/macbook-air-13-inch-m2", view: "View Repairs"},
+        {id: 2, name: "MacBook Air (13-inch, M1, 2020)", image: "/mac/macbook-air/13-inch/13-inch-m1.jpg", link: "/mac-repairs/macbook-air/macbook-air-13-inch-m1", view: "View Repairs"},
+        {id: 3, name: "MacBook Air (13-inch, Intel, 18-20)", image: "/mac/macbook-air/13-inch/13-inch-retina.jpg", link: "/mac-repairs/macbook-air/macbook-air-13-inch-retina", view: "View Repairs"},
+        {id: 4, name: "MacBook Air (13-inch, 13-17)", image: "/mac/macbook-air/13-inch/13-inch-13-17.jpg", link: "/mac-repairs/macbook-air/macbook-air-13-inch-13-17", view: "View Repairs"},
+    ],
+    MacBookAir15Inch: [
+        {id: 1, name: "MacBook Air (15-inch, M2, 2023)", image: "/mac/macbook-air/15-inch/15-inch-m2.jpg", link: "/mac-repairs/macbook-air/macbook-air-15-inch-m2", view: "View Repairs"},
+    ],
+    MacBookPro13Inch: [
+        {id: 1, name: "MacBook Pro (13-inch, M2, 2022)", image: "/mac/macbook-pro/13-inch/13-inch-m2.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-m2", view: "View Repairs"},
+        {id: 2, name: "MacBook Pro (13-inch, M1, 2020)", image: "/mac/macbook-pro/13-inch/13-inch-m1.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-m1", view: "View Repairs"},
+        {id: 3, name: "MacBook Pro (13-inch, Intel, 2020)", image: "/mac/macbook-pro/13-inch/13-inch-intel-2020.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-intel-2020", view: "View Repairs"},
+        {id: 4, name: "MacBook Pro (13-inch, 2019)", image: "/mac/macbook-pro/13-inch/13-inch-2019.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-2019", view: "View Repairs"},
+        {id: 5, name: "MacBook Pro (13-inch, 2018)", image: "/mac/macbook-pro/13-inch/13-inch-2018.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-2018", view: "View Repairs"},
+        {id: 6, name: "MacBook Pro (13-inch, 2017)", image: "/mac/macbook-pro/13-inch/13-inch-2017.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-2017", view: "View Repairs"},
+        {id: 7, name: "MacBook Pro (13-inch, Retina, 12-15)", image: "/mac/macbook-pro/13-inch/13-inch-retina.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-retina", view: "View Repairs"},
+        {id: 8, name: "MacBook Pro (13-inch, Unibody, 09-12)", image: "/mac/macbook-pro/13-inch/13-inch-unibody.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-13-inch-unibody", view: "View Repairs"},
+    ],
+    MacBookPro14Inch: [
+        {id: 1, name: "MacBook Pro (14-inch, M3 Pro/Max, 2023)", image: "/mac/macbook-pro/14-inch/14-inch-2023-m3-pro-max.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-14-inch-2023-m3-pro-max", view: "View Repairs"},
+        {id: 2, name: "MacBook Pro (14-inch, M3, 2023)", image: "/mac/macbook-pro/14-inch/14-inch-m3-2023.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-14-inch-m3-2023", view: "View Repairs"},
+        {id: 3, name: "MacBook Pro (14-inch, M2, 2023)", image: "/mac/macbook-pro/14-inch/14-inch-m2-2023.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-14-inch-m2-2023", view: "View Repairs"},
+        {id: 4, name: "MacBook Pro (14-inch, 2021)", image: "/mac/macbook-pro/14-inch/14-inch-2021.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-14-inch-2021", view: "View Repairs"},
+    ],
+    MacBookPro15Inch: [
+        {id: 1, name: "MacBook Pro (15-inch, 2019)", image: "/mac/macbook-pro/15-inch/15-inch-2019.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-15-inch-2019", view: "View Repairs"},
+        {id: 2, name: "MacBook Pro (15-inch, 2018)", image: "/mac/macbook-pro/15-inch/15-inch-2018.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-15-inch-2018", view: "View Repairs"},
+        {id: 3, name: "MacBook Pro (15-inch, 2017)", image: "/mac/macbook-pro/15-inch/15-inch-2017.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-15-inch-2017", view: "View Repairs"},
+        {id: 4, name: "MacBook Pro (15-inch, 2016)", image: "/mac/macbook-pro/15-inch/15-inch-2016.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-15-inch-2016", view: "View Repairs"},
+        {id: 5, name: "MacBook Pro (15-inch, Retina, 12-15)", image: "/mac/macbook-pro/15-inch/15-inch-retina.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-15-inch-retina", view: "View Repairs"},
+        {id: 6, name: "MacBook Pro (15-inch, Unibody, 09-12)", image: "/mac/macbook-pro/15-inch/15-inch-unibody.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-15-inch-unibody", view: "View Repairs"},
+    ],
+    MacBookPro16Inch: [
+        {id: 1, name: "MacBook Pro (16-inch, M3, 2023)", image: "/mac/macbook-pro/16-inch/16-inch-m3-2023.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-16-inch-m3-2023", view: "View Repairs"},
+        {id: 2, name: "MacBook Pro (16-inch, M2, 2023)", image: "/mac/macbook-pro/16-inch/16-inch-m2-2023.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-16-inch-m2-2023", view: "View Repairs"},
+        {id: 3, name: "MacBook Pro (16-inch, 2021)", image: "/mac/macbook-pro/16-inch/16-inch-2021.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-16-inch-2021", view: "View Repairs"},
+        {id: 4, name: "MacBook Pro (16-inch, 2019)", image: "/mac/macbook-pro/16-inch/16-inch-2019.jpg", link: "/mac-repairs/macbook-pro/macbook-pro-16-inch-2019", view: "View Repairs"},
+    ],
+
+    iMac21Inch: [
+        {id: 1, name: "iMac 21.5-inch (4k, 17-19)", image: "/mac/imac/21.5-inch/21-5-inch-4k-17-19.jpg", link: "/mac-repairs/imac/imac-21-5-inch-4k-17-19", view: "View Repairs"},
+        {id: 2, name: "iMac 21.5-inch (14-17)", image: "/mac/imac/21.5-inch/21-5-inch-14-17.jpg", link: "/mac-repairs/imac/imac-21-5-inch-14-17", view: "View Repairs"},
+        {id: 3, name: "iMac 21.5-inch (4k, 2015)", image: "/mac/imac/21.5-inch/21-5-inch-4k-2015.jpg", link: "/mac-repairs/imac/imac-21-5-inch-4k-2015", view: "View Repairs"},
+        {id: 4, name: "iMac 21.5-inch (12-13)", image: "/mac/imac/21.5-inch/21-5-inch-12-13.jpg", link: "/mac-repairs/imac/imac-21-5-inch-12-13", view: "View Repairs"},
+    ],
+    iMac27Inch: [
+        {id: 1, name: "iMac 27-inch (5k, 2020)", image: "/mac/imac/27-inch/27-inch-5k-2020.jpg", link: "/mac-repairs/imac/imac-27-inch-5k-2020", view: "View Repairs"},
+        {id: 2, name: "iMac 27-inch (5k, 2019)", image: "/mac/imac/27-inch/27-inch-5k-2019.jpg", link: "/mac-repairs/imac/imac-27-inch-5k-2019", view: "View Repairs"},
+        {id: 3, name: "iMac 27-inch (5k, 2017)", image: "/mac/imac/27-inch/27-inch-5k-2017.jpg", link: "/mac-repairs/imac/imac-27-inch-5k-2017", view: "View Repairs"},
+        {id: 4, name: "iMac 27-inch (5k, 14-15)", image: "/mac/imac/27-inch/27-inch-5k-14-15.jpg", link: "/mac-repairs/imac/imac-27-inch-5k-14-15", view: "View Repairs"},
+        {id: 5, name: "iMac 27-inch (12-13)", image: "/mac/imac/27-inch/27-inch-12-13.jpg", link: "/mac-repairs/imac/imac-27-inch-12-13", view: "View Repairs"},
+    ],
+    MacMini: [
+        {id: 1, name: "Mac mini 2018", image: "/mac/mac-mini/mac-mini-2018.jpg", link: "/mac-repairs/mac-mini/mac-mini-2018", view: "View Repairs"},
+        {id: 2, name: "Mac mini 2014", image: "/mac/mac-mini/mac-mini-2014.jpg", link: "/mac-repairs/mac-mini/mac-mini-2014", view: "View Repairs"},
+        {id: 3, name: "Mac mini 2012", image: "/mac/mac-mini/mac-mini-2012.jpg", link: "/mac-repairs/mac-mini/mac-mini-2012", view: "View Repairs"},
+
+    ],
+
 };
 export {categories, products};
